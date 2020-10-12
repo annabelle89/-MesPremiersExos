@@ -30,50 +30,44 @@ a{
     /*texte en noir*/
     color:rgb(0, 0, 0);
 }
-.flexcontainer{
+.presentation{
     font-family: Verdana;
     font-size: 12 ;
     background-color: rgb(151, 151, 144);
     border: 10px solid transparent;
-    padding: 50px;
+    padding: 35px;
     margin: 50px;
     text-align: center;
-    word-spacing: 5px;
     display: flex;
     color: white;
-    font-style: bolder;
 }
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    width: 180px;
-    border: 10px solid transparent;
-    text-align: center;
-  }
-div.gallery:hover{
-    border: 1px solid;
-}
-div.gallery img{
-    width: 150%;
-  height: auto;
-}
-div desc{
-    padding:15px ;
-    text-align: center;
-    font-weight: bolder;
+#blockLine{
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
 }
-.text2{
-    text-align: left;
-    padding: 15px;
-    font-size: 14px;
+img{
+   width: 75%; 
 }
-@media screen and (min-width: 480px) {
-    body {
-      background-color: rgb(199, 196, 187);
+.block{
+    text-align: center;
+    margin: 10px 15px;
+}
+p{
+    text-align: justify;
+}
+/*............................Medias Queries........................*/
+/*pour une largeur d'écran inférieure à 992px la ligne de bloc ne sera pas alignée horizontalement mais verticalement*/
+@media screen and (max-width: 992px){
+    #blockLine{
+      flex-direction: column;
     }
   }
-
-
+/*pour une largeur d'écran inférieure à 680px...*/
+@media screen and (max-width: 680px){
+    /* on masque les éléments de la navbar */
+    a, form{
+      display: none;
+    }
+    #navIcon{
+        display: block;
+    }
+}
