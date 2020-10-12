@@ -1,0 +1,33 @@
+<!doctype html5>
+<html5>
+<head>
+</head>
+<body>
+<h1>le premier jour de ma vie</h1>
+<h2>Annabelle</2>
+<p>Elle se promenait les cheveux au vent</p>
+<h2>Helena</2>
+<p>Elle aimait les glaces</p>
+<ul>
+<ol>janvier
+ mars
+  avril
+   mai
+    juin
+     juillet
+      aout
+       septembre
+        octobre
+         novembre
+          decembre</ol>
+ <ol>dimanche
+  samedi
+   vendredi
+    jeudi
+     mercredi
+      mardi
+       lundi</ol>
+ </ul>               
+<p></p>
+</body>
+</html5
